@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[
+  <content><![CDATA[[
 
 ## Model selection for machine learning with meta-data.
 
