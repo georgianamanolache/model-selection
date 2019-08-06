@@ -1,8 +1,7 @@
 <snippet>
   <content><![CDATA[
 
-Model selection for machine learning with meta-data.
-================================================
+## Model selection for machine learning with meta-data.
 
 Algorithm and hyperparameter optimization is a well studied topic in machine learning. Recent work relies on Bayesian optimization especially for solving the hyperparameter
 optimization problem for a given machine learning algorithm. Suppose that prior tasks are available on which the algorithm and hyperparameter optimization has already been
