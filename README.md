@@ -5,7 +5,9 @@ warm-start algorithm selection and hyperparameter tuning for a new task.
 
 ## Implementation details
 
-For this experiment, we use the same set of six functions for generating six different sets of data. Each function substitutes an algorithm behaviour for which we produce six similar data sets. For details, see pfd attached.
+For this experiment, we use the same set of six functions for generating six different sets of data. Each function substitutes an algorithm behaviour for which we produce six similar data sets. 
+
+For the model selection, we use three randomly selected configurations to initialize each model. Similarly, we fit GPs to each meta-learning dataset on 20 randomly selected configurations. Then, each optimization run is initialized with three randomly selected configurations, until a total of 20 runs is conducted. The optimization is repeated 120 times, each with a different random selection of configurations. This is repeated for each algorithm function, for a total of 720 optimization runs. For details, see PDF attached.
 
 ## Installation
 
