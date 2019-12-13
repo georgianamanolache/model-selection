@@ -14,6 +14,6 @@ For the model selection, we use three randomly selected configurations to initia
 Requires: [george](https://github.com/automl/george.git), [ROBO](https://github.com/automl/RoBO/blob/master/README.md).
 
 ## Usage
-1. Run 'model-selection.py'; this will procude a 'json' file
+1. Run 'model_selection.py'; this will procude a 'json' file
 2. Plot results with 'plot.py' (which plots the distance to the global minimum at each iteration, or [regret](https://www.ismll.uni-hildesheim.de/pub/pdfs/wistuba_et_al_ECML_2016.pdf))
 
